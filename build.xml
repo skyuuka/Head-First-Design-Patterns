@@ -14,6 +14,7 @@
 </target>
 
 <path id="compile.classpath">
+    <fileset dir="/usr/local/Cellar/tomcat/8.0.11/libexec/lib" includes="**/*.jar"/>
 </path>
 
 <target name="compile" depends="init" description="compile the source">
